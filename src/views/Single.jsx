@@ -9,7 +9,6 @@ const Single = () => {
     <>
       <h2>Single Media Page</h2>
       <h3>{item.title}</h3>
-      {}
       {item.media_type.startsWith('image') ? (
         <img src={item.filename} alt={item.description} />
       ) : (
@@ -18,6 +17,7 @@ const Single = () => {
         </video>
       )}
       <p>{item.description}</p>
+      <p>Owner: {item.username}</p>
       <button onClick={() => navigate(-1)}>Go back</button>
     </>
   );
