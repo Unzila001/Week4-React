@@ -20,3 +20,39 @@ nav a {
   text-decoration: none;
   font-weight: bold;
 }
+
+/* Style the Display link as a button */
+.display-button {
+  display: inline-block;
+  background-color: #0891b2;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Change colour when hovering */
+.display-button:hover {
+  background-color: #0e7490;
+  color: white;
+}
+
+/* Control the width of the Description column */
+table th:nth-child(3),
+table td:nth-child(3) {
+  width: 200px;
+  max-width: 200px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+/* Alternate table row colours */
+tbody tr:nth-child(even) {
+  background-color: #494949;
+}
+
+/* Highlight a row when hovering */
+tbody tr:hover {
+  background-color: #555;
+}

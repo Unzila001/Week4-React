@@ -15,8 +15,8 @@ const MediaRow = (props) => {
       <td>{item.media_type}</td>
       <td>{item.username}</td>
       <td>
-        <Link to="/single" state={item}>
-          Show
+        <Link to="/single" state={item} className="display-button">
+          Display
         </Link>
       </td>
     </tr>

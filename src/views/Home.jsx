@@ -47,6 +47,7 @@ const Home = () => {
             <th>Size</th>
             <th>Type</th>
             <th>Owner</th>
+            <th>Info</th>
           </tr>
         </thead>
 
