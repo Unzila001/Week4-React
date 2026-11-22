@@ -1,9 +1,14 @@
+import {useEffect} from 'react';
+import {useUserContext} from '../hooks/contextHooks';
+
 const Logout = () => {
-  return (
-    <>
-      <h1>Logout</h1>
-    </>
-  );
+  const {handleLogout} = useUserContext();
+
+  useEffect(() => {
+    handleLogout();
+  }, []);
+
+  return <p>Logging out...</p>;
 };
 
 export default Logout;
