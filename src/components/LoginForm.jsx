@@ -1,4 +1,4 @@
-import useForm from '../hooks/formHooks';
+import {useForm} from '../hooks/formHooks';
 import {useAuthentication} from '../hooks/apiHooks';
 import {useNavigate} from 'react-router';
 import {useUserContext} from '../hooks/contextHooks';

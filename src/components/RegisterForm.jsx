@@ -1,4 +1,4 @@
-import useForm from '../hooks/formHooks';
+import {useForm} from '../hooks/formHooks';
 import {useUser} from '../hooks/apiHooks';
 
 const RegisterForm = () => {
